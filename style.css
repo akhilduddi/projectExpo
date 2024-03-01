@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.yt-gif {
+    display: none;
+    margin-top: -56.2%;
+}
+
+.aaa {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.yt-tmbnl:hover+.yt-gif {
+    display: block;
+}
+
+.navbar {
+    background: #202020 !important;
+    color: #fff !important;
+    padding: 10px 0 8px 6px !important;
+}
+
+
+
+.nav-button:focus {
+    outline: none !important;
+}
+
+.yt-in-icon {
+    color: #aaa;
+    margin: 0 0 20px 4px;
+    font-size: 10px;
+}
+
+.yt-nav-sm-searchicon {
+    border: 1px solid #303030;
+    background-color: #ffffff14;
+    border-radius: 0 2px 2px 0;
+    height: 40px;
+    width: 64px;
+    cursor: pointer;
+
+}
+
+.yt-nav-mic {
+    height: 40px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #181818;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.yt-top-icons {
+    margin: 0 6px;
+}
+
+.yt-notifactins {
+    color: white;
+    background-color: #c00;
+    border: 2px solid rgba(33, 33, 33, 0.98);
+    padding: 0 0 17px 0;
+    min-width: 20px;
+    max-width: 20px;
+    height: 16px;
+    border-radius: 22px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: -10px;
+}
+
+.yt-gmail-img {
+    border-radius: 40pc;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+
+.nav-body {
+    background: #212121;
+}
+
+.navbar-collapse {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 235px;
+    height: 100%;
+
+
+}
+
+.over-flowy {
+    overflow-y: auto;
+    height: 80vh;
+    overflow-x: hidden;
+    margin-top: 80px;
+    padding-bottom: 30px;
+
+
+}
+
+
+.navbar-collapse.collapsing {
+    left: -75% !important;
+    transition: height 0s ease !important;
+}
+
+.navbar-collapse.show {
+    left: 0 !important;
+    transition: left 150ms ease-in-out !important;
+}
+
+.navbar-toggler .collapsed~.navbar-collapse {
+    transition: left 150ms ease-in-out !important;
+
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.yt-nav-icon-con {
+    padding: 8px 0 8px 23px;
+    margin-top: -16px;
+    cursor: pointer;
+}
+
+.yt-nav-icon-con:hover {
+    background-color: #383838;
+}
+
+.yt-nav-icon-nms {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 24px;
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-top: 2px;
+    letter-spacing: .007px;
+    text-overflow: ellipsis;
+}
+
+.yt-nav-hr {
+    background-color: rgb(50 50 50);
+    height: .4px;
+    width: 232px;
+    margin-top: -.01px;
+    margin-bottom: 20px;
+
+}
+
+.yt-sub-icon {
+    height: 24px;
+    width: 24px;
+    border-radius: 40px;
+}
+
+.over-flow {
+    border: 1.9px #353535;
+    border-style: solid none;
+    padding: 10px 0 0 0;
+    overflow-x: auto;
+    background-color: #202020;
+    top: 53px;
+
+
+}
+
+.yt-top-all-btn {
+    background-color: #fff;
+    padding: 4px 12px;
+    border-radius: 22px;
+    margin: 0 5px 0 20px;
+    height: 35px;
+}
+
+.yt-left-container {
+    position: fixed;
+    width: 66px;
+    padding-top: 40px;
+    margin-top: 100px;
+    background-color: #202020;
+    left: -10px;
+    height: 100%;
+    z-index: 2;
+
+}
+
+.yt-nav-icon-con-2 {
+    height: 75px;
+    width: 72px;
+
+}
+
+.yt-nav-icon-con-2:hover {
+    background-color: #383838;
+    cursor: pointer;
+}
+
+.scrollspy-example {
+    position: relative;
+    padding-top: 200px;
+    margin-top: -50px;
+    margin-left: -502;
+    height: 100%;
+    overflow: scroll;
+    z-index: 1;
+    background-color: #181818;
+}
+
+
+
+.container-fluid {
+    width: 94%;
+    margin: auto !important;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+.yt-top-btns {
+    margin: 0 5px;
+    color: #fff;
+    background-color: #373737;
+    border: 0.900px solid #4b4b4b;
+    padding: 4px 12px;
+    border-radius: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    height: 35px;
+    font-family: "Roboto", "Arial", sans-serif;
+
+
+}
+
+.yt-top-btns:hover {
+    transition: 0.5s cubic-bezier(0.05, 0, 0, 1);
+    background-color: #4d4d4d;
+}
+
+.yt-top-btns:focus {
+    color: #202020;
+    background: #fff;
+    outline: none;
+}
+
+
+.input {
+    width: 40%;
+}
+
+
+
+input {
+    background-color: #121212;
+    border: 1px #303030 solid;
+    color: #fff;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 4px;
+    outline: none;
+    padding-left: 10px;
+}
+
+
+
+.yt-vido-chnl-img {
+    margin-right: 10px;
+    height: 36px;
+    width: 36px;
+    border-radius: 40px;
+}
+
+.yt-vido-title {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    overflow: hidden;
+    -webkit-line-clam: 2;
+    line-height: 20px;
+    max-height: 40px;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+
+.yt-vid-chnl_views {
+    color: #aaa;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Roboto", "Arial", sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.yt-chnl-nam:hover {
+    color: #fff;
+}
+
+
+svg {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+.yt-right-container {
+    background-color: #181818;
+
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                            <div class="col-12 m-auto  col-sm-6  col-lg-4 col-xl-3">
+                                <div class="">
+                                    <!-- video link-->
+                                    <a href="https://www.youtube.com/watch?v=">
+                                    <!-- Video Thumbnail-->
+                                        <img class="w-100" src="https://i.ytimg.com/vi/     /maxresdefault.jpg" />
+                                    </a>
+                                </div>
+                                <div class=" mt-2">
+                                    <div class="d-flex flex-row">
+                                    <!-- Channel link -->
+                                        <a href="">
+                                    <!-- Channel Icon-->
+                                            <img src="" class="yt-vido-chnl-img" />
+                                        </a>
+
+                                        <div class="">
+                                    <!-- video Link -->
+                                            <a href="https://www.youtube.com/watch?v=">
+                                    <!-- Video title-->
+                                                <p class="yt-vido-title">
+
+                                                </p>
+                                            </a>
+
+                                    <!-- Channel link -->
+                                            <a href="" class="d-flex flex-row   justify-content-start">
+                                                <!-- Channel Name-->
+                                                <p class="yt-vid-chnl_views mt-n2 yt-chnl-nam  ">
+
+                                                </p>
+                                                <span>
+                                                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="ml-1 mt-n1 " style="pointer-events: none; display: block; width:14px; height:14px;" fill='#aaa'>
+                                                        <g>
+                                                            <path d="M12,2C6.5,2,2,6.5,2,12c0,5.5,4.5,10,10,10s10-4.5,10-10C22,6.5,17.5,2,12,2z M9.8,17.3l-4.2-4.1L7,11.8l2.8,2.7L17,7.4 l1.4,1.4L9.8,17.3z" class="style-scope yt-icon"></path>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                                <!-- Video Views and time -->
+                                            <p class="yt-vid-chnl_views mt-n2">â€¢</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                    New format
+                                
+                            <div class="col-12 m-auto  col-sm-6  col-lg-4 col-xl-3">
+                                <div class="">
+                                    <!-- video link-->
+                                    <a href="https://www.youtube.com/watch?v=">
+                                        <!-- Video Thumbnail-->
+                                        <img class="w-100 yt-tmbnl" src="" />
+                                        <img class="w-100 yt-gif" src="" />
+                                    </a>
+                                </div>
+                                <div class=" mt-2">
+                                    <div class="d-flex flex-row">
+                                        <!-- Channel link -->
+                                        <a href="https://www.youtube.com/channel/">
+                                            <!-- Channel Icon-->
+                                            <img src="" class="yt-vido-chnl-img" />
+                                        </a>
+
+                                        <div class="">
+                                            <!-- youtube Link -->
+                                            <a href="https://www.youtube.com/watch?v=">
+                                                <!-- Video title-->
+                                                <p class="yt-vido-title">
+
+                                                </p>
+                                            </a>
+
+                                            <a href="https://www.youtube.com/channel/" class="d-flex flex-row   justify-content-start">
+                                                <!-- Channel Name-->
+                                                <p class="yt-vid-chnl_views mt-n2 yt-chnl-nam  ">
+
+                                                </p>
+                                                <span>
+                                                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="ml-1 mt-n1 " style="pointer-events: none; display: block; width:14px; height:14px;" fill='#aaa'>
+                                                        <g>
+                                                            <path d="M12,2C6.5,2,2,6.5,2,12c0,5.5,4.5,10,10,10s10-4.5,10-10C22,6.5,17.5,2,12,2z M9.8,17.3l-4.2-4.1L7,11.8l2.8,2.7L17,7.4 l1.4,1.4L9.8,17.3z" class="style-scope yt-icon"></path>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <!-- Video Views and time -->
+                                            <p class="yt-vid-chnl_views mt-n2"> views â€¢ 1 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
